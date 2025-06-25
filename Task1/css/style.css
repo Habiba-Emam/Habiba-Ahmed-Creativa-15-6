@@ -1,0 +1,678 @@
+/* reset*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/*Global*/
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.nav-bg {
+    background-color: black;
+}
+
+.a-white {
+    color: white;
+}
+
+
+.h-orange {
+    color: orange;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 5% 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.cont1 {
+    width: 49%;
+    display: inline-block;
+    float: left;
+}
+
+.cont2 {
+    width: 25%;
+    display: inline-block;
+    float: right;
+
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+
+}
+
+.main-t {
+    color: white;
+
+}
+
+.s-div {
+    display: inline-block;
+    padding-top: 1%;
+}
+
+.s-icons {
+    width: 60%;
+    padding-top: 1%;
+}
+
+.li-display li {
+    display: inline-block;
+    padding-right: 5%;
+
+}
+
+.sec-shadow {
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
+}
+
+.box {
+    width: 100%;
+    background-color: black;
+    margin: 3% 0%;
+}
+
+.para-text {
+    color: grey;
+    margin-top: 5%;
+}
+
+.img-shadow {
+    box-shadow: 0px 0px 20px 2px grey;
+}
+
+.c-des {
+    display: inline-block;
+}
+
+.c-icon {
+
+    width: 100%;
+}
+
+.dis {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.m-dis {
+    margin-top: 5%;
+}
+
+.icon-div {
+    margin-right: 5%;
+
+}
+
+.icon-text {
+    width: 80%;
+}
+
+.icon-text h6 {
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+.icon-text p {
+    color: lightgrey;
+}
+
+.icon-div i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.2;
+    color: orange;
+
+
+}
+
+.t-cont {
+    font-size: 25px;
+
+}
+
+.h-info {
+    width: 55px;
+    border-color: orange;
+
+}
+
+.align-div {
+    text-align: center;
+}
+
+.align-div {
+    margin: auto;
+}
+
+.p-colorg {
+    color: lightgrey;
+}
+
+.a-icons {
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: orange;
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+
+
+}
+
+.a-icons::before {
+    line-height: 2.5 !important;
+    vertical-align: middle;
+}
+
+.p-icon {
+    font-size: 20px;
+    padding: 5% 0%;
+}
+
+.p-colorgg {
+    color: grey;
+
+}
+
+.sup-bgc {
+    background-color: rgb(47, 47, 47);
+}
+
+.ul-bgc {
+    background-color: white;
+}
+
+.ul-color {
+    color: lightgrey;
+}
+
+.sup-color {
+    color: white;
+}
+
+.sup-color h4 {
+
+    padding: 5% 0%;
+}
+
+.sup-h {
+    font-size: 30px;
+}
+
+.ul-div ul li {
+    border: 1px solid;
+    padding: 3% 0%;
+
+}
+
+.ul-shadow {
+    box-shadow: 0px -10px 0px 0px orange;
+}
+
+.p-italic {
+    font-style: italic;
+    padding: 5% 0%;
+}
+
+
+.n-size {
+    font-size: 70px;
+}
+
+.mess {
+    width: 100%;
+    background-color: lightgrey;
+    margin-right: 5%;
+}
+
+.mess-p {
+    padding: 3% 5%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid lightgrey;
+    margin-left: 10%;
+}
+
+.mess-width {
+    width: 23%;
+}
+
+.person-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.person-info {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.person-info h6 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.form-size {
+    width: 40%;
+}
+
+.form-size input{
+    width: 100%;
+}
+/*custom*/
+
+.navc {
+    width: 80%;
+    margin: auto;
+}
+
+.navc a span {
+    font-size: 30px;
+}
+
+#hl-size {
+    margin: 3% 0%;
+    width: 10%;
+}
+
+#bg-image {
+    background-image: url(../images/download.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    padding: 1% 0%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 2%;
+}
+
+nav ul {
+    width: 25%;
+}
+
+
+
+form {
+    background-color: white;
+    margin: auto;
+}
+
+form input {
+    padding: 2%;
+    margin: 2% 20%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: grey;
+    width: 60%;
+
+}
+
+.ft-color {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 3%;
+
+}
+
+#sbt {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    padding: 5%;
+    text-align: center;
+
+
+}
+
+.upper {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#sdiv-size {
+    width: 30%;
+}
+
+.i-size {
+    font-size: 45px;
+    color: lightgrey;
+    padding-top: 20%;
+}
+
+#p-fs {
+    color: lightgrey;
+    padding-top: 2%;
+}
+
+.s-div h4 {
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+#box-color {
+    background-color: orange;
+}
+
+.box h3 {
+    text-align: center;
+    color: white;
+    padding: 35% 25%;
+}
+
+.sec3-info {
+    background-color: lightgrey;
+    padding: 5% 5%;
+    margin-top: 0.1%;
+}
+
+.sec2-info {
+    background-color: white;
+    padding-bottom: 1%;
+
+}
+
+.cont4 {
+    width: 10%;
+    display: inline-block;
+}
+
+.cont5 {
+    width: 45%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.cont6 {
+    display: inline-block;
+    width: 15%;
+
+}
+
+.cont6 .img1 {
+    width: 100%;
+
+}
+
+.cont6 .img2 {
+    width: 100%;
+    display: inline-block;
+    transform: scaleY(-1);
+    opacity: 0.2;
+    filter: blur(2px);
+}
+
+.btn1 {
+    background: none;
+    border-color: white;
+    margin: 5% 0% 3%;
+    padding: 1% 5%;
+    color: white;
+}
+
+.btn2 {
+    margin-top: 15%;
+    padding: 2% 6%;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+#heading-text {
+    font-size: 25px;
+
+}
+
+.sec4-info {
+    background-color: white;
+    padding: 5% 0%;
+}
+
+.cont7 {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+
+}
+
+.cont8 {
+    width: 40%;
+    padding-right: 5%;
+}
+
+.cont8 hr {
+    margin-bottom: 5%;
+}
+
+.cont8 h4 {
+    padding-bottom: 5%;
+    font-size: 25px;
+
+}
+
+.cont8 p {
+    color: lightgrey;
+
+}
+
+.p-div {
+    margin-top: 10%;
+}
+
+.sec5-info {
+    background-color: lightgrey;
+
+
+}
+
+.cont9 {
+    width: 30%;
+}
+
+.cont9 h4 {
+    margin: 15% 0% 5%;
+}
+
+.cont9 p {
+    color: grey;
+    padding: 5% 0%;
+}
+
+.cont9 hr {
+    margin-bottom: 5%;
+}
+
+.cont10 {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.align-div .h-title {
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.card {
+    width: 33%;
+    margin-top: 5%;
+}
+
+.sec6-info {
+    background-color: white;
+    padding: 5% 0%;
+}
+
+.align-div h3 {
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.sec7-info {
+    background-color: lightgrey;
+    padding: 5% 0%;
+}
+
+.card1-3,
+.card2 {
+    width: 31%;
+
+}
+
+.card2 {
+    margin: -3% 3%;
+}
+
+
+.p-sup {
+    background-color: orange;
+    padding: 3% 0%;
+}
+
+.cards {
+    margin: 5% 0%;
+
+}
+
+.sec8-info {
+    padding: 5% 0%;
+    background-color: white;
+}
+
+.mess2 {
+    margin: 0% 15%;
+}
+
+.messages {
+    margin: 5% 0%;
+}
+
+.bg-image2 {
+    background-image: url(../images/building\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hl-info {
+    width: 5%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.sec9-info {
+    background-color: white;
+    padding: 5% 0%;
+}
+
+.textarea-info {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+   
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+}
+.form-pad{
+    padding: 5% 0%;
+}
+.sbt2{
+    padding: 1%;
+    width: 12%;
+    margin-top: 20%;
+    border-radius: 10px ;
+    border: orange;
+    color: white;
+    background-color: orange;
+    
+}
+
+.footer-bg{
+    background-color: black;
+}
+
+.i-footer{
+    color: lightgrey;
+}
+.ul-size{
+    padding: 1% 0%;
+
+}
+
+.ul-list li{
+    display: inline-block;
+    padding-right: 1%;
+}
+.footer-text{
+    color: lightgrey;
+    font-size: 8px;
+}
+
+.copyright-icon{
+    color: lightgrey;
+    font-size: 8px;
+}
+
+.footer-div{
+    margin-top: 1%;
+}
